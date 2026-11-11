@@ -1,0 +1,457 @@
+<!doctype html><html lang="de"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Börsen-Briefing · GE·MI·VO StockPilot AI · Mi, 11.11.2026</title>
+<link rel="icon" href="https://gemivo.de/nl-assets/favicon.png">
+<script>(function(){var t=localStorage.getItem('nlTheme');if(t)document.documentElement.dataset.theme=t;
+if(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.classList.add('dark-sys');})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light dark;--paper:#F6F3EC;--ink:#1A1C1E;--mut:#4A4E55;--faint:#75736B;
+      --rule:#E0DACB;--rule2:#EAE5D8;--navy:#0A2540;--brass:#8A6A2F;--green:#177245;--red:#B0453A}
+:root[data-theme="dark"]{--paper:#12151A;--ink:#E8EAEE;--mut:#A6ADB6;--faint:#8A9099;--rule:#2A2F37;--rule2:#22262D;--brass:#C9A35C;--green:#4CC38A;--red:#E0736A}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#12151A;--ink:#E8EAEE;--mut:#A6ADB6;--faint:#8A9099;--rule:#2A2F37;--rule2:#22262D;--brass:#C9A35C;--green:#4CC38A;--red:#E0736A}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);line-height:1.62;
+     font-family:"IBM Plex Sans",-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased;font-size:14px}
+a{color:inherit;text-decoration:none}
+.serif{font-family:"Source Serif 4",Georgia,serif}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+.up{color:var(--green)}.down{color:var(--red)}
+.wrap{max-width:1360px;margin:0 auto;padding:0 clamp(18px,3.4vw,56px)}
+.caps{font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--brass)}
+.mut{color:var(--mut)}
+.small{font-size:12px;color:var(--faint);line-height:1.6}
+/* Ticker-Tape */
+.tape{background:#07090D;color:#D9DEE6;overflow:hidden;white-space:nowrap}
+.tape .in{display:inline-block;padding:8px 0;animation:tape 80s linear infinite;will-change:transform}
+.tape:hover .in{animation-play-state:paused}
+@keyframes tape{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tape .it{display:inline-block;margin:0 22px;font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.02em}
+.tape .it .l{color:#79828F}.tape .it .v{color:#EDF0F4;font-weight:500;margin-left:7px}.tape .it b{font-weight:600;margin-left:7px}
+.tape .it b.up{color:#3FAE71}.tape .it b.down{color:#D95F55}
+/* Masthead: dunkles Band */
+.mastband{background:linear-gradient(160deg,#0A1B33,#0A2540 60%,#0C2E52);color:#fff}
+.mast{padding:26px 0 22px}
+.mast .row{display:flex;justify-content:space-between;align-items:flex-end;gap:18px;flex-wrap:wrap}
+.mast .kick{font-size:10.5px;font-weight:600;letter-spacing:.3em;color:#8FA5C2}
+.mast h1{font-family:"Source Serif 4",Georgia,serif;font-size:clamp(30px,3.2vw,44px);font-weight:700;letter-spacing:-.01em;line-height:1.05;margin:6px 0 4px;color:#fff}
+.mast .sub{color:#A9B8CC;font-size:13px}
+.mast .right{text-align:right;font-size:12px;color:#A9B8CC}
+.mast .right .mono{font-size:11.5px;color:#8FA5C2}
+.mast .by{display:flex;align-items:center;gap:8px;justify-content:flex-end;margin-top:6px}
+.mast .by img{width:26px;height:26px;border-radius:50%;object-fit:cover;border:1px solid rgba(255,255,255,.3)}
+.mast .by b{color:#fff}
+/* Abschluss-Band */
+.endband{background:linear-gradient(160deg,#0A1B33,#0A2540 60%,#0C2E52);color:#fff;margin-top:40px}
+.endband .in{max-width:1360px;margin:0 auto;padding:34px clamp(18px,3.4vw,56px);display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.endband .t{font-family:"Source Serif 4",Georgia,serif;font-size:22px;font-weight:600}
+.endband .s{color:#A9B8CC;font-size:13px;margin-top:3px}
+.cta2{display:inline-block;background:#fff;color:#0A2540;font-weight:600;font-size:13px;padding:13px 28px;letter-spacing:.03em}
+/* Aufmacher */
+.leadblock{padding:34px 0 30px;border-bottom:1px solid var(--rule)}
+.lh{font-family:"Source Serif 4",Georgia,serif;font-size:clamp(28px,3.6vw,50px);font-weight:600;letter-spacing:-.015em;line-height:1.12;margin:10px 0 14px;max-width:30ch}
+.ldek{font-size:16px;color:#3C434B;max-width:82ch;margin:0 0 14px}
+.names{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--mut);letter-spacing:.02em}
+.names b{font-weight:500}
+/* Spalten-Sektionen: Weißraum + Haarlinien statt Karten */
+.cols{display:grid;grid-template-columns:5fr 4fr 4fr;gap:0;border-bottom:1px solid var(--rule)}
+.cols>div{padding:26px 30px 30px;border-left:1px solid var(--rule);min-width:0}
+.cols>div:first-child{border-left:0;padding-left:0}
+.cols>div:last-child{padding-right:0}
+.cols3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;border-bottom:1px solid var(--rule)}
+.cols3>div{padding:26px 30px 34px;border-left:1px solid var(--rule);min-width:0}
+.cols3>div:first-child{border-left:0;padding-left:0}
+.cols3>div:last-child{padding-right:0}
+.cols{border-top:2px solid var(--ink)}
+.tipsbox{background:#FCFBF6;border:1px solid var(--rule);border-top:2px solid var(--ink);margin-top:12px}
+.tipsbox>div{padding:26px 30px 34px}
+.tipsbox>div:first-child{border-left:0;padding-left:30px}
+.tipsbox>div:last-child{padding-right:30px}
+.datacols{border-top:2px solid var(--ink);margin-top:30px}
+@media(max-width:1080px){.cols{grid-template-columns:1fr 1fr}.cols>div:nth-child(3){border-left:0;padding-left:0}
+  .cols3{grid-template-columns:1fr}}
+@media(max-width:760px){.cols{grid-template-columns:1fr}.cols>div{border-left:0;padding-left:0;padding-right:0}
+  .cols3>div{border-left:0;padding-left:0;padding-right:0}
+  .tipsbox>div{padding:22px 18px 28px}.tipsbox>div:first-child{padding-left:18px}.tipsbox>div:last-child{padding-right:18px}}
+.stitle{font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);margin:0 0 16px}
+.stitle .why{float:right;color:var(--faint);font-weight:500;letter-spacing:.08em}
+.shead{padding:30px 0 0}
+/* Lage */
+.word{font-family:"Source Serif 4",Georgia,serif;font-size:34px;font-weight:600;letter-spacing:-.01em;line-height:1}
+.risk{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--faint);margin-top:6px}
+.lead{font-size:15px;color:#3C434B;margin:14px 0 4px;max-width:58ch}
+.merk .m{padding:11px 0;border-top:1px solid var(--rule2);font-size:13.5px;color:#3C434B}
+/* Status */
+.stat{padding:13px 0;border-top:1px solid var(--rule2)}
+.stat:first-of-type{border-top:0;padding-top:0}
+.stat .t{font-size:13px;font-weight:600}
+.stat p{font-size:12.5px;color:var(--mut);margin:3px 0 0}
+/* Tabellen */
+table.dt{width:100%;border-collapse:collapse;font-size:13px}
+table.dt td{padding:7px 0;border-top:1px solid var(--rule2);vertical-align:top}
+table.dt tr:first-child td{border-top:0}
+table.dt .num{font-family:"IBM Plex Mono",monospace;text-align:right;white-space:nowrap}
+table.dt .lbl{color:var(--mut)}
+.tk{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--faint);letter-spacing:.04em}
+/* Tipps */
+.tip .lab{font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase}
+.tip .tkr{float:right}
+.tip h3{font-family:"Source Serif 4",Georgia,serif;font-size:21px;font-weight:600;letter-spacing:-.01em;margin:10px 0 2px}
+.tip .chg{font-family:"IBM Plex Mono",monospace;font-size:12px}
+.tip .chart{margin:14px 0 4px}
+.cwrap{position:relative}
+.clab{position:absolute;right:0;font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.05em;color:var(--faint);background:rgba(250,249,246,.9);padding:0 3px}
+.clab.tgt{left:0;right:auto;color:#8A7D5E}
+.ctip{position:absolute;display:none;background:var(--ink);color:#fff;font-size:10.5px;padding:3px 8px;pointer-events:none;white-space:nowrap;z-index:5;transform:translate(-50%,-130%)}
+.cswitch{display:flex;justify-content:flex-end;position:relative;z-index:6;font-size:10px;letter-spacing:.08em;color:var(--faint);user-select:none;margin-bottom:2px}
+.cswitch span{cursor:pointer;margin-left:10px;padding-bottom:2px}
+.cswitch span.on{color:var(--ink);border-bottom:1px solid var(--ink)}
+.kv{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:7px 0;border-top:1px solid var(--rule2);font-size:13px}
+.kv:first-of-type{border-top:0}
+.kv .l{color:var(--mut)}
+.kv .v{font-family:"IBM Plex Mono",monospace}
+.upside{font-family:"Source Serif 4",Georgia,serif;font-size:26px;font-weight:600}
+.blurb{font-size:13px;color:var(--mut);margin:10px 0 0;line-height:1.6}
+.why{font-size:13px;color:#3C434B;margin-top:12px;padding-top:12px;border-top:1px solid var(--rule2);line-height:1.65}
+details{margin-top:10px}
+details summary{cursor:pointer;font-size:11px;font-weight:600;color:var(--faint);letter-spacing:.14em;text-transform:uppercase;list-style:none}
+details summary::before{content:"+ "}
+details[open] summary::before{content:"− "}
+details .body{margin-top:8px;font-size:12.5px;color:var(--mut)}
+/* Balken + Listen */
+.bar{display:flex;align-items:center;gap:12px;padding:8px 0;border-top:1px solid var(--rule2);font-size:12.5px}
+.bar:first-of-type{border-top:0}
+.bar .n{width:100px;flex:none;color:var(--mut)}
+.bar .tr{flex:1;height:4px;background:var(--rule2)}
+.bar .fl{height:100%}
+.bar .v{font-family:"IBM Plex Mono",monospace;width:60px;text-align:right}
+.li{padding:10px 0;border-top:1px solid var(--rule2)}
+.li:first-child{border-top:0}
+.li .r{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.li .nm{font-weight:600;font-size:13px}
+.li .tx{font-size:12.5px;color:var(--mut);margin-top:2px}
+.li .when{font-size:10.5px;font-weight:600;letter-spacing:.14em;color:var(--faint);text-transform:uppercase}
+.li .warnl{font-size:10.5px;font-weight:600;letter-spacing:.14em;color:var(--red);text-transform:uppercase}
+.sublist .caps{display:block;margin:18px 0 2px}
+/* Bilanz */
+.trust{padding:30px 34px;margin-top:34px;background:#EFE9D8;display:flex;gap:34px;align-items:center;flex-wrap:wrap}
+.trust .ev{font-family:"Source Serif 4",Georgia,serif;font-size:52px;font-weight:600;color:var(--ink);line-height:1;white-space:nowrap}
+.trust .ev span{display:block;font-size:10.5px;font-weight:600;letter-spacing:.2em;color:var(--faint);margin-top:8px;font-family:"IBM Plex Sans",sans-serif;text-transform:uppercase}
+.trust p{margin:0;font-size:13.5px;color:#3C434B;max-width:92ch}
+.cta{display:inline-block;background:var(--navy);color:#fff;font-weight:600;font-size:13px;padding:13px 28px;letter-spacing:.03em}
+.foot{margin:0;padding:22px 0 44px;font-size:11px;color:var(--faint);line-height:1.7}
+@media(max-width:760px){body{font-size:13.5px}.mast{padding-top:22px}.trust .ev{font-size:40px}.stitle .why{float:none;display:block;margin-top:4px}}
+/* Mobile Font-Pass 2026-09-14: Kleinste Schriftgroessen anheben (Ziel: keine Textstelle <12px), Tap-Ziele vergroessern. Nur <=560px, Desktop unberuehrt. */
+@media(max-width:560px){
+.caps{font-size:12px}
+.mast .kick{font-size:12px}
+.mast .right{font-size:13px}
+.mast .right .mono{font-size:13px}
+.stitle{font-size:12.5px}
+.risk{font-size:12.5px}
+details summary{font-size:13px;padding:10px 0}
+.tk{font-size:12px}
+.tip .lab{font-size:12px}
+.cswitch{font-size:12px}
+.cswitch span{display:inline-block;padding:9px 2px 10px;min-height:32px}
+.clab{font-size:11px}
+.ctip{font-size:11px}
+.li .when,.li .warnl{font-size:12px}
+.trust .ev span{font-size:12px}
+.foot{font-size:12px}
+div.mono[style]{font-size:13px!important}
+}
+/* Dunkelmodus-Feinheiten (greifen bei data-theme=dark oder System-Dark ohne Override) */
+:root[data-theme="dark"] .tipsbox,:root:not([data-theme="light"]).dark-sys .tipsbox{background:#171B21}
+:root[data-theme="dark"] .trust,:root:not([data-theme="light"]).dark-sys .trust{background:#1E222A}
+:root[data-theme="dark"] .clab,:root:not([data-theme="light"]).dark-sys .clab{background:rgba(18,21,26,.9)}
+:root[data-theme="dark"] [style*="color:#3C434B"],:root:not([data-theme="light"]).dark-sys [style*="color:#3C434B"]{color:#C3C9D2!important}
+:root[data-theme="dark"] [style*="color:#37414F"],:root:not([data-theme="light"]).dark-sys [style*="color:#37414F"]{color:#C3C9D2!important}
+:root[data-theme="dark"] [style*="color:#1E6B47"],:root[data-theme="dark"] [style*="color:#177245"],:root:not([data-theme="light"]).dark-sys [style*="color:#1E6B47"],:root:not([data-theme="light"]).dark-sys [style*="color:#177245"]{color:#4CC38A!important}
+:root[data-theme="dark"] [style*="color:#A63D33"],:root[data-theme="dark"] [style*="color:#B0453A"],:root:not([data-theme="light"]).dark-sys [style*="color:#A63D33"],:root:not([data-theme="light"]).dark-sys [style*="color:#B0453A"]{color:#E0736A!important}
+:root[data-theme="dark"] [style*="color:#9C6B1F"],:root:not([data-theme="light"]).dark-sys [style*="color:#9C6B1F"]{color:#D89A3E!important}
+:root[data-theme="dark"] [style*="color:#5E646B"],:root:not([data-theme="light"]).dark-sys [style*="color:#5E646B"]{color:#9AA1AA!important}
+:root[data-theme="dark"] svg line[stroke="#EAE5D8"],:root:not([data-theme="light"]).dark-sys svg line[stroke="#EAE5D8"]{stroke:#262B33}
+:root[data-theme="dark"] svg polyline[stroke="#177245"],:root:not([data-theme="light"]).dark-sys svg polyline[stroke="#177245"]{stroke:#4CC38A}
+:root[data-theme="dark"] svg circle[fill="#177245"],:root:not([data-theme="light"]).dark-sys svg circle[fill="#177245"]{fill:#4CC38A}
+:root[data-theme="dark"] svg polyline[stroke="#B0453A"],:root:not([data-theme="light"]).dark-sys svg polyline[stroke="#B0453A"]{stroke:#E0736A}
+:root[data-theme="dark"] svg circle[fill="#B0453A"],:root:not([data-theme="light"]).dark-sys svg circle[fill="#B0453A"]{fill:#E0736A}
+:root[data-theme="dark"] svg line[stroke="#A08A54"],:root:not([data-theme="light"]).dark-sys svg line[stroke="#A08A54"]{stroke:#B39E6B}
+:root[data-theme="dark"] .lead,:root[data-theme="dark"] .ldek,:root[data-theme="dark"] .merk .m,:root[data-theme="dark"] .why,:root[data-theme="dark"] .trust p,:root[data-theme="dark"] .tip .blurb,
+:root:not([data-theme="light"]).dark-sys .lead,:root:not([data-theme="light"]).dark-sys .ldek,:root:not([data-theme="light"]).dark-sys .merk .m,:root:not([data-theme="light"]).dark-sys .why,:root:not([data-theme="light"]).dark-sys .trust p,:root:not([data-theme="light"]).dark-sys .tip .blurb{color:#C3C9D2}
+.tbtn{background:transparent;border:1px solid rgba(255,255,255,.4);color:#fff;width:34px;height:34px;border-radius:50%;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;margin-left:12px}
+</style></head><body>
+
+<!-- TICKER-TAPE -->
+<div class="tape"><div class="in"><span class="it"><span class="l">DAX</span><span class="v">26.529</span><b class="up">+0,69%</b></span><span class="it"><span class="l">MDAX</span><span class="v">31.038</span><b class="up">+0,01%</b></span><span class="it"><span class="l">TecDAX</span><span class="v">4.089</span><b class="up">+1,43%</b></span><span class="it"><span class="l">EuroStoxx 50</span><span class="v">6.368</span><b class="up">+0,63%</b></span><span class="it"><span class="l">S&amp;P 500</span><span class="v">7.521</span><b class="down">−0,38%</b></span><span class="it"><span class="l">Nasdaq</span><span class="v">25.066</span><b class="down">−0,74%</b></span><span class="it"><span class="l">VIX</span><span class="v">18,6</span><b class="down">−4,7%</b></span><span class="it"><span class="l">EUR/USD</span><span class="v">1,1126</span><b class="down">−0,4%</b></span><span class="it"><span class="l">Öl WTI</span><span class="v">87,2 $</span><b class="up">+1,4%</b></span><span class="it"><span class="l">Gold</span><span class="v">4.052 $</span><b class="up">+0,5%</b></span><span class="it"><span class="l">US 10J</span><span class="v">4,98 %</span><b class="up">+2,4%</b></span><span class="it"><span class="l">Bitcoin</span><span class="v">73.861 $</span><b class="down">−0,5%</b></span><span class="it"><span class="l">AMD</span><b class="up">+5,9%</b></span><span class="it"><span class="l">Nvidia</span><b class="up">+3,9%</b></span><span class="it"><span class="l">Google</span><b class="up">+1,3%</b></span><span class="it"><span class="l">Microsoft</span><b class="up">+0,8%</b></span><span class="it"><span class="l">Apple</span><b class="down">−0,5%</b></span><span class="it"><span class="l">Bitcoin</span><b class="down">−0,5%</b></span><span class="it"><span class="l">DAX</span><span class="v">26.529</span><b class="up">+0,69%</b></span><span class="it"><span class="l">MDAX</span><span class="v">31.038</span><b class="up">+0,01%</b></span><span class="it"><span class="l">TecDAX</span><span class="v">4.089</span><b class="up">+1,43%</b></span><span class="it"><span class="l">EuroStoxx 50</span><span class="v">6.368</span><b class="up">+0,63%</b></span><span class="it"><span class="l">S&amp;P 500</span><span class="v">7.521</span><b class="down">−0,38%</b></span><span class="it"><span class="l">Nasdaq</span><span class="v">25.066</span><b class="down">−0,74%</b></span><span class="it"><span class="l">VIX</span><span class="v">18,6</span><b class="down">−4,7%</b></span><span class="it"><span class="l">EUR/USD</span><span class="v">1,1126</span><b class="down">−0,4%</b></span><span class="it"><span class="l">Öl WTI</span><span class="v">87,2 $</span><b class="up">+1,4%</b></span><span class="it"><span class="l">Gold</span><span class="v">4.052 $</span><b class="up">+0,5%</b></span><span class="it"><span class="l">US 10J</span><span class="v">4,98 %</span><b class="up">+2,4%</b></span><span class="it"><span class="l">Bitcoin</span><span class="v">73.861 $</span><b class="down">−0,5%</b></span><span class="it"><span class="l">AMD</span><b class="up">+5,9%</b></span><span class="it"><span class="l">Nvidia</span><b class="up">+3,9%</b></span><span class="it"><span class="l">Google</span><b class="up">+1,3%</b></span><span class="it"><span class="l">Microsoft</span><b class="up">+0,8%</b></span><span class="it"><span class="l">Apple</span><b class="down">−0,5%</b></span><span class="it"><span class="l">Bitcoin</span><b class="down">−0,5%</b></span></div></div>
+
+<!-- MASTHEAD -->
+<div class="mastband"><div class="wrap"><div class="mast">
+  <div class="row">
+    <div style="display:flex;align-items:center;gap:18px">
+      <svg width="52" height="52" viewBox="0 0 48 48" aria-hidden="true" style="flex:none">
+        <circle cx="24" cy="24" r="21.5" fill="none" stroke="rgba(255,255,255,.85)" stroke-width="2"/>
+        <path d="M24 6.5 L28.6 24 L24 20.6 L19.4 24 Z" fill="#C9A35C"/>
+        <path d="M24 41.5 L19.4 24 L24 27.4 L28.6 24 Z" fill="#ffffff"/>
+      </svg>
+      <div>
+        <div class="kick">GE·MI·VO MARKETS</div>
+        <h1>Börsen-Briefing</h1>
+        <div class="sub">Märkte, verständlich. Jeden Handelstag um 10 Uhr, gerechnet von der StockPilot AI.</div>
+      </div>
+    </div>
+    <div class="right">
+      <div><span class="mono">Mi, 11.11.2026 · Stand 14:24 Uhr MESZ</span><button id="themeBtn" class="tbtn" aria-label="Hell- oder Dunkelmodus">
+        <svg id="ic-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg>
+        <svg id="ic-sun" style="display:none" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+      </button></div>
+      <div class="by"><img src="https://gemivo.de/store/assets/kay.jpg" alt="Kay Conrad"><span>Herausgeber: <b>Kay Conrad</b></span></div>
+    </div>
+  </div>
+</div></div></div>
+
+<div class="wrap">
+
+  <!-- AUFMACHER -->
+    <div class="leadblock">
+    <span class="caps">Das Thema heute</span>
+    <div class="lh">Nvidia verliert fast fünf Prozent</div>    <p class="ldek">Nvidia verlor heute fast fünf Prozent an Wert, nachdem Berichte über einen Vorstandsstreit und Verdachtsmomente im Zusammenhang mit Unternehmensspionage die Anleger besorgt gemacht hatten.</p>        <div class="names">AMD <b class="up">+5,9%</b>&ensp;·&ensp;Nvidia <b class="up">+3,9%</b>&ensp;·&ensp;Google <b class="up">+1,3%</b>&ensp;·&ensp;Microsoft <b class="up">+0,8%</b>&ensp;·&ensp;Apple <b class="down">−0,5%</b>&ensp;·&ensp;Bitcoin <b class="down">−0,5%</b></div>
+      </div>
+  
+  <!-- LAGE / STATUS / DATEN -->
+  <div class="cols">
+    <div>
+      <p class="stitle">Die Lage</p>
+      <div class="word" style="color:#A63D33">Sturm</div>
+            <div class="risk">Rückschlag-Risiko 3 Monate: 34 % · normal 15 %</div>
+            <p class="lead">Stürmische Börsenphase. Heute nichts überstürzen: Kapital schützen geht vor Rendite.</p>
+      <div class="merk">
+                <div class="m">Die großen Indizes: S&amp;P 500 −0,4% · DAX +0,7% · Nasdaq −0,7%. Am besten laufen zurzeit Technology-Aktien (+23% in 30 Tagen).</div>
+                <div class="m">22 Unternehmen legen heute Quartalszahlen vor. Bei diesen Aktien sind größere Kurssprünge möglich.</div>
+                <div class="m">Unsere Top-Idee heute: Caris Life Sciences, Inc.. Analysten sehen im Schnitt +13 % Luft nach oben (Details unten).</div>
+              </div>
+          </div>
+    <div>
+      <p class="stitle">Marktstatus</p>
+      <div class="stat"><div class="t">Marktlage: <span style="color:#A63D33">Sturm</span></div>
+        <p>Rückschlag-Gefahr in den nächsten 3 Monaten: 34 % (normal sind 15 %).</p></div>
+      <div class="stat"><div class="t">Fundament: <span style="color:#9C6B1F">Angespannt</span></div>
+        <p>Unter der Oberfläche gibt es Spannungen: etwas mehr Vorsicht bei neuen Käufen.</p></div>
+      <div class="stat"><div class="t">Politik-Risiko: <span style="color:#9C6B1F">Erhöht</span></div>
+        <p>Trump äußert sich zu Ermittlungen gegen den Nvidia-CEO in Zusammenhang mit China-Vorwürfen.</p></div>
+      <details><summary>Messwerte für Profis</summary><div class="body">
+        <table class="dt">
+        <tr><td class="lbl">Trend (SMA200)</td><td class="num">+2,6% zur 200-Tage-Linie</td></tr><tr><td class="lbl">Volatilität</td><td class="num">21,9 % (20 Tage)</td></tr><tr><td class="lbl">VIX-Niveau</td><td class="num">VIX 18,6</td></tr><tr><td class="lbl">VIX-Struktur</td><td class="num">Ratio 0,94</td></tr><tr><td class="lbl">Kreditspreads</td><td class="num">3,3 pp HY-Spread</td></tr><tr><td class="lbl">Marktbreite</td><td class="num">43 % über SMA200</td></tr>        </table>
+        <p class="small" style="margin-top:8px">Microsoft Pushes Trump Administration to Scrap Planned Ban on Chinese AI Data Center Parts (TipRanks) · FBI probing Nvidia CEO Huang amid China spy allegations, Trump says (NVDA:NASDAQ) (Seeking Alpha) · Trump says FBI probing Nvidia CEO Huang as China controversy deepens (Yahoo Finance UK) · </p>      </div></details>
+    </div>
+    <div>
+      <p class="stitle">Indizes &amp; Makro</p>
+      <table class="dt">
+                <tr><td class="lbl">DAX</td><td class="num">26.529</td><td class="num up">+0,69%</td></tr>
+                <tr><td class="lbl">MDAX</td><td class="num">31.038</td><td class="num up">+0,01%</td></tr>
+                <tr><td class="lbl">TecDAX</td><td class="num">4.089</td><td class="num up">+1,43%</td></tr>
+                <tr><td class="lbl">EuroStoxx 50</td><td class="num">6.368</td><td class="num up">+0,63%</td></tr>
+                <tr><td class="lbl">S&amp;P 500</td><td class="num">7.521</td><td class="num down">−0,38%</td></tr>
+                <tr><td class="lbl">Nasdaq</td><td class="num">25.066</td><td class="num down">−0,74%</td></tr>
+                <tr><td class="lbl">VIX <span class="tk">Angstbarometer</span></td><td class="num">18,6</td><td class="num tk">ruhig</td></tr>        <tr><td class="lbl">EUR/USD</td><td class="num">1,1126</td><td class="num down">−0,4%</td></tr><tr><td class="lbl">Öl WTI</td><td class="num">87,2 $</td><td class="num up">+1,4%</td></tr><tr><td class="lbl">Gold</td><td class="num">4.052 $</td><td class="num up">+0,5%</td></tr><tr><td class="lbl">US 10J</td><td class="num">4,98 %</td><td class="num up">+2,4%</td></tr><tr><td class="lbl">Bitcoin</td><td class="num">73.861 $</td><td class="num down">−0,5%</td></tr>      </table>
+    </div>
+  </div>
+
+  <!-- TIPPS -->
+  <div class="shead">
+    <p class="stitle" style="margin-bottom:6px">Die Tipps des Tages<span class="why">Geprüft: in Deutschland handelbar</span></p>
+    <p class="mut" style="font-size:13px;margin:0;max-width:100ch">Bewusst abseits der Schlagzeilen-Aktien, die jeder schon hat: hier ist die Luft nach oben oft größer. Ausgewählt von der StockPilot AI, abgeglichen mit den Kurszielen professioneller Analysten, jeden Tag neu.
+     Zur Einordnung: 2.085 Tipps seit 05/2026 verfolgt, unterm Strich <b>+1% pro Tipp</b>.</p>
+  </div>
+  <div class="cols3 tipsbox">
+        <div class="tip">
+      <span class="lab" style="color:var(--green)">Kaufkandidat</span><span class="tk tkr">CAI</span>
+      <h3>Caris Life Sciences, Inc.</h3>
+      <span class="chg up">heute +0,0%</span>            <div class="chart">
+        <div class="cswitch mono"><span class="on" data-d="30">30 T</span><span data-d="90">90 T</span></div>
+        <div class="cwrap c30" data-v="[30.63,28.35,28.3,30.39,27.45,27.1,27.5,29.7,29.69,29.53,30.25,31.76,30.56,30.71,31.11,32.35,31.71,32,32.46,33.67,35.45,36.14,34.33,32.1,32.85,33.22,26.03,25.23,25.57,24.43]"><span class="ctip mono"></span>
+          <svg width="100%" height="92" viewBox="0 0 320 92" preserveAspectRatio="none" style="display:block"><defs><linearGradient id="sg03d54f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B0453A" stop-opacity=".13"/><stop offset="1" stop-color="#B0453A" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="91" x2="320" y2="91" stroke="#EAE5D8" stroke-width="1"/><polygon points="0,92 0,43 11,57.5 22.1,57.8 33.1,44.5 44.1,63.2 55.2,65.4 66.2,62.9 77.2,48.9 88.3,49 99.3,50 110.3,45.4 121.4,35.8 132.4,43.4 143.4,42.5 154.5,40 165.5,32.1 176.6,36.1 187.6,34.3 198.6,31.4 209.7,23.7 220.7,12.4 231.7,8 242.8,19.5 253.8,33.7 264.8,28.9 275.9,26.5 286.9,72.2 297.9,77.3 309,75.1 320,82.4 320,92" fill="url(#sg03d54f)"/><polyline fill="none" stroke="#B0453A" stroke-width="1.8" points="0,43 11,57.5 22.1,57.8 33.1,44.5 44.1,63.2 55.2,65.4 66.2,62.9 77.2,48.9 88.3,49 99.3,50 110.3,45.4 121.4,35.8 132.4,43.4 143.4,42.5 154.5,40 165.5,32.1 176.6,36.1 187.6,34.3 198.6,31.4 209.7,23.7 220.7,12.4 231.7,8 242.8,19.5 253.8,33.7 264.8,28.9 275.9,26.5 286.9,72.2 297.9,77.3 309,75.1 320,82.4"/><line x1="0" y1="84" x2="320" y2="84" stroke="#A08A54" stroke-width="1.1" stroke-dasharray="2 4"/><circle cx="320" cy="82.4" r="2.5" fill="#B0453A"/></svg>          <span class="clab tgt" style="top:69px">Ziel 24 €</span>          <span class="clab" style="top:2px">Hoch 36,14 €</span>
+          <span class="clab" style="bottom:2px">Tief 24,43 €</span>
+        </div>
+                <div class="cwrap c90" style="display:none" data-v="[17.47,17.32,17.87,16.99,17.06,16.95,17.46,16.48,16.49,15.56,15.73,15.38,15.65,15.52,15.63,15.59,15.59,16.09,15.67,16.32,16.1,16.45,20,22.74,23.4,23.14,22.26,22.18,21.8,21.63,20.97,22.76,24.58,26.27,26.13,28.01,26.82,26.38,25.63,25.49,24.78,24.8,25.32,25.07,24.82,24.03,24.04,24.34,26.05,28.5,28.21,30.92,29.98,30.65,31.47,31.65,32.27,31.98,31.75,31.55,30.63,28.35,28.3,30.39,27.45,27.1,27.5,29.7,29.69,29.53,30.25,31.76,30.56,30.71,31.11,32.35,31.71,32,32.46,33.67,35.45,36.14,34.33,32.1,32.85,33.22,26.03,25.23,25.57,24.43]"><span class="ctip mono"></span>
+          <svg width="100%" height="92" viewBox="0 0 320 92" preserveAspectRatio="none" style="display:block"><defs><linearGradient id="sg03d54f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#177245" stop-opacity=".13"/><stop offset="1" stop-color="#177245" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="91" x2="320" y2="91" stroke="#EAE5D8" stroke-width="1"/><polygon points="0,92 0,76.3 3.6,76.9 7.2,74.9 10.8,78.1 14.4,77.8 18,78.3 21.6,76.4 25.2,80 28.8,79.9 32.4,83.3 36,82.7 39.6,84 43.1,83 46.7,83.5 50.3,83.1 53.9,83.2 57.5,83.2 61.1,81.4 64.7,82.9 68.3,80.6 71.9,81.4 75.5,80.1 79.1,67.1 82.7,57.1 86.3,54.6 89.9,55.6 93.5,58.8 97.1,59.1 100.7,60.5 104.3,61.1 107.9,63.5 111.5,57 115.1,50.3 118.7,44.1 122.2,44.6 125.8,37.8 129.4,42.1 133,43.7 136.6,46.5 140.2,47 143.8,49.6 147.4,49.5 151,47.6 154.6,48.5 158.2,49.4 161.8,52.3 165.4,52.3 169,51.2 172.6,44.9 176.2,36 179.8,37 183.4,27.1 187,30.6 190.6,28.1 194.2,25.1 197.8,24.4 201.3,22.2 204.9,23.2 208.5,24.1 212.1,24.8 215.7,28.2 219.3,36.5 222.9,36.7 226.5,29.1 230.1,39.8 233.7,41.1 237.3,39.6 240.9,31.6 244.5,31.6 248.1,32.2 251.7,29.5 255.3,24 258.9,28.4 262.5,27.9 266.1,26.4 269.7,21.9 273.3,24.2 276.9,23.2 280.4,21.5 284,17 287.6,10.5 291.2,8 294.8,14.6 298.4,22.8 302,20 305.6,18.7 309.2,45 312.8,47.9 316.4,46.7 320,50.9 320,92" fill="url(#sg03d54f)"/><polyline fill="none" stroke="#177245" stroke-width="1.8" points="0,76.3 3.6,76.9 7.2,74.9 10.8,78.1 14.4,77.8 18,78.3 21.6,76.4 25.2,80 28.8,79.9 32.4,83.3 36,82.7 39.6,84 43.1,83 46.7,83.5 50.3,83.1 53.9,83.2 57.5,83.2 61.1,81.4 64.7,82.9 68.3,80.6 71.9,81.4 75.5,80.1 79.1,67.1 82.7,57.1 86.3,54.6 89.9,55.6 93.5,58.8 97.1,59.1 100.7,60.5 104.3,61.1 107.9,63.5 111.5,57 115.1,50.3 118.7,44.1 122.2,44.6 125.8,37.8 129.4,42.1 133,43.7 136.6,46.5 140.2,47 143.8,49.6 147.4,49.5 151,47.6 154.6,48.5 158.2,49.4 161.8,52.3 165.4,52.3 169,51.2 172.6,44.9 176.2,36 179.8,37 183.4,27.1 187,30.6 190.6,28.1 194.2,25.1 197.8,24.4 201.3,22.2 204.9,23.2 208.5,24.1 212.1,24.8 215.7,28.2 219.3,36.5 222.9,36.7 226.5,29.1 230.1,39.8 233.7,41.1 237.3,39.6 240.9,31.6 244.5,31.6 248.1,32.2 251.7,29.5 255.3,24 258.9,28.4 262.5,27.9 266.1,26.4 269.7,21.9 273.3,24.2 276.9,23.2 280.4,21.5 284,17 287.6,10.5 291.2,8 294.8,14.6 298.4,22.8 302,20 305.6,18.7 309.2,45 312.8,47.9 316.4,46.7 320,50.9"/><line x1="0" y1="51.8" x2="320" y2="51.8" stroke="#A08A54" stroke-width="1.1" stroke-dasharray="2 4"/><circle cx="320" cy="50.9" r="2.5" fill="#177245"/></svg>          <span class="clab tgt" style="top:36.8px">Ziel 24 €</span>          <span class="clab" style="top:2px">Hoch 36,14 €</span>
+          <span class="clab" style="bottom:2px">Tief 15,38 €</span>
+        </div>
+                <div class="small" style="padding:4px 0 2px">Kursverlauf · gepunktet: Analysten-Ziel</div>
+      </div>
+            <div class="kv"><span class="l">Kurs heute</span><span class="v">21,40 €</span></div>
+            <div class="kv"><span class="l">Analysten-Ziel Ø</span><span class="v">24,18 €</span></div>
+      <div class="kv"><span class="l">Luft nach oben</span><span class="upside up">+13%</span></div>
+            <p class="blurb">Caris Life Sciences entwickelt und liefert diagnostische Lösungen für die personalisierte Onkologie, mit Schwerpunkt auf molekulare Tumoranalyse und Biomarker-Entwicklung.</p>      <p class="why"><b>Warum ein Kandidat:</b> 12 Profi-Analysten beobachten die Aktie, ihr Durchschnitts-Urteil: „Kaufen“. Die StockPilot AI sieht die Aktie in der oberen Hälfte ihres Rankings. Nicht hinterherlaufen: einen schwächeren Tag zum Einstieg abwarten und mit Stop-Loss absichern.</p>
+      <details><summary>Alle Zahlen</summary><div class="body"><table class="dt">
+        <tr><td class="lbl">Analysten-Spanne</td><td class="num">19 € bis 32 €</td></tr>
+        <tr><td class="lbl">Analysten-Votum <span class="tk">Skala 1 bis 5, 1 = Starkes Kaufen</span></td><td class="num">1,5 von 5</td></tr>
+        <tr><td class="lbl">StockPilot-AI-Rang</td><td class="num">Platz 61 von 136</td></tr>
+        <tr><td class="lbl">Branche</td><td class="num" style="font-family:inherit">Healthcare</td></tr>
+        <tr><td class="lbl">ISIN</td><td class="num">US1421521071</td></tr>
+      </table></div></details>
+    </div>
+        <div class="tip">
+      <span class="lab" style="color:var(--green)">Starker Kaufkandidat</span><span class="tk tkr">CHRD</span>
+      <h3>Chord Energy Corporation</h3>
+      <span class="chg up">heute +1,0%</span>            <div class="chart">
+        <div class="cswitch mono"><span class="on" data-d="30">30 T</span><span data-d="90">90 T</span></div>
+        <div class="cwrap c30" data-v="[134.07,136.85,137.01,139.11,137.53,136.05,142.34,141.54,144.57,146.51,146.18,148.33,154.56,154.48,152.22,150.85,150.48,158.13,156.15,153.31,154.06,153.63,156.99,147.39,143.83,132.33,132.45,136.49,137.49,138.62]"><span class="ctip mono"></span>
+          <svg width="100%" height="92" viewBox="0 0 320 92" preserveAspectRatio="none" style="display:block"><defs><linearGradient id="sg16c412" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#177245" stop-opacity=".13"/><stop offset="1" stop-color="#177245" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="91" x2="320" y2="91" stroke="#EAE5D8" stroke-width="1"/><polygon points="0,92 0,78.9 11,70.7 22.1,70.2 33.1,64 44.1,68.7 55.2,73 66.2,54.5 77.2,56.9 88.3,47.9 99.3,42.2 110.3,43.2 121.4,36.9 132.4,18.5 143.4,18.8 154.5,25.4 165.5,29.4 176.6,30.5 187.6,8 198.6,13.8 209.7,22.2 220.7,20 231.7,21.3 242.8,11.4 253.8,39.6 264.8,50.1 275.9,84 286.9,83.6 297.9,71.7 309,68.8 320,65.5 320,92" fill="url(#sg16c412)"/><polyline fill="none" stroke="#177245" stroke-width="1.8" points="0,78.9 11,70.7 22.1,70.2 33.1,64 44.1,68.7 55.2,73 66.2,54.5 77.2,56.9 88.3,47.9 99.3,42.2 110.3,43.2 121.4,36.9 132.4,18.5 143.4,18.8 154.5,25.4 165.5,29.4 176.6,30.5 187.6,8 198.6,13.8 209.7,22.2 220.7,20 231.7,21.3 242.8,11.4 253.8,39.6 264.8,50.1 275.9,84 286.9,83.6 297.9,71.7 309,68.8 320,65.5"/><line x1="0" y1="33.5" x2="320" y2="33.5" stroke="#A08A54" stroke-width="1.1" stroke-dasharray="2 4"/><circle cx="320" cy="65.5" r="2.5" fill="#177245"/></svg>          <span class="clab tgt" style="top:18.5px">Ziel 149 €</span>          <span class="clab" style="top:2px">Hoch 158 €</span>
+          <span class="clab" style="bottom:2px">Tief 132 €</span>
+        </div>
+                <div class="cwrap c90" style="display:none" data-v="[115.81,121.06,117.44,116.36,121.28,120.92,122.35,122.99,126.97,127.67,133.01,136.19,137.67,137.14,130.64,127.67,135.27,137.03,139.15,138.1,135.69,128.81,131.33,130.19,137.3,138.01,136.37,133.28,136.11,141.62,142.67,146.53,148.81,147.85,144.67,140.76,140.14,145.99,146,147.11,150.41,149.58,148,146.39,147.61,149.49,151.82,152.01,151.22,157,147.03,146.27,144.49,139.43,135.89,137.72,140.02,136.27,135.15,134.41,134.07,136.85,137.01,139.11,137.53,136.05,142.34,141.54,144.57,146.51,146.18,148.33,154.56,154.48,152.22,150.85,150.48,158.13,156.15,153.31,154.06,153.63,156.99,147.39,143.83,132.33,132.45,136.49,137.49,138.62]"><span class="ctip mono"></span>
+          <svg width="100%" height="92" viewBox="0 0 320 92" preserveAspectRatio="none" style="display:block"><defs><linearGradient id="sg16c412" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#177245" stop-opacity=".13"/><stop offset="1" stop-color="#177245" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="91" x2="320" y2="91" stroke="#EAE5D8" stroke-width="1"/><polygon points="0,92 0,84 3.6,74.6 7.2,81.1 10.8,83 14.4,74.2 18,74.8 21.6,72.3 25.2,71.1 28.8,64 32.4,62.7 36,53.1 39.6,47.4 43.1,44.7 46.7,45.7 50.3,57.4 53.9,62.7 57.5,49.1 61.1,45.9 64.7,42.1 68.3,44 71.9,48.3 75.5,60.7 79.1,56.1 82.7,58.2 86.3,45.4 89.9,44.1 93.5,47.1 97.1,52.6 100.7,47.5 104.3,37.6 107.9,35.8 111.5,28.8 115.1,24.7 118.7,26.5 122.2,32.2 125.8,39.2 129.4,40.3 133,29.8 136.6,29.8 140.2,27.8 143.8,21.9 147.4,23.4 151,26.2 154.6,29.1 158.2,26.9 161.8,23.5 165.4,19.3 169,19 172.6,20.4 176.2,10 179.8,27.9 183.4,29.3 187,32.5 190.6,41.6 194.2,47.9 197.8,44.7 201.3,40.5 204.9,47.3 208.5,49.3 212.1,50.6 215.7,51.2 219.3,46.2 222.9,45.9 226.5,42.2 230.1,45 233.7,47.7 237.3,36.4 240.9,37.8 244.5,32.4 248.1,28.9 251.7,29.5 255.3,25.6 258.9,14.4 262.5,14.6 266.1,18.6 269.7,21.1 273.3,21.7 276.9,8 280.4,11.6 284,16.7 287.6,15.3 291.2,16.1 294.8,10 298.4,27.3 302,33.7 305.6,54.3 309.2,54.1 312.8,46.9 316.4,45.1 320,43 320,92" fill="url(#sg16c412)"/><polyline fill="none" stroke="#177245" stroke-width="1.8" points="0,84 3.6,74.6 7.2,81.1 10.8,83 14.4,74.2 18,74.8 21.6,72.3 25.2,71.1 28.8,64 32.4,62.7 36,53.1 39.6,47.4 43.1,44.7 46.7,45.7 50.3,57.4 53.9,62.7 57.5,49.1 61.1,45.9 64.7,42.1 68.3,44 71.9,48.3 75.5,60.7 79.1,56.1 82.7,58.2 86.3,45.4 89.9,44.1 93.5,47.1 97.1,52.6 100.7,47.5 104.3,37.6 107.9,35.8 111.5,28.8 115.1,24.7 118.7,26.5 122.2,32.2 125.8,39.2 129.4,40.3 133,29.8 136.6,29.8 140.2,27.8 143.8,21.9 147.4,23.4 151,26.2 154.6,29.1 158.2,26.9 161.8,23.5 165.4,19.3 169,19 172.6,20.4 176.2,10 179.8,27.9 183.4,29.3 187,32.5 190.6,41.6 194.2,47.9 197.8,44.7 201.3,40.5 204.9,47.3 208.5,49.3 212.1,50.6 215.7,51.2 219.3,46.2 222.9,45.9 226.5,42.2 230.1,45 233.7,47.7 237.3,36.4 240.9,37.8 244.5,32.4 248.1,28.9 251.7,29.5 255.3,25.6 258.9,14.4 262.5,14.6 266.1,18.6 269.7,21.1 273.3,21.7 276.9,8 280.4,11.6 284,16.7 287.6,15.3 291.2,16.1 294.8,10 298.4,27.3 302,33.7 305.6,54.3 309.2,54.1 312.8,46.9 316.4,45.1 320,43"/><line x1="0" y1="23.5" x2="320" y2="23.5" stroke="#A08A54" stroke-width="1.1" stroke-dasharray="2 4"/><circle cx="320" cy="43" r="2.5" fill="#177245"/></svg>          <span class="clab tgt" style="top:8.5px">Ziel 149 €</span>          <span class="clab" style="top:2px">Hoch 158 €</span>
+          <span class="clab" style="bottom:2px">Tief 116 €</span>
+        </div>
+                <div class="small" style="padding:4px 0 2px">Kursverlauf · gepunktet: Analysten-Ziel</div>
+      </div>
+            <div class="kv"><span class="l">Kurs heute</span><span class="v">122,30 €</span></div>
+            <div class="kv"><span class="l">Analysten-Ziel Ø</span><span class="v">149,47 €</span></div>
+      <div class="kv"><span class="l">Luft nach oben</span><span class="upside up">+22%</span></div>
+            <p class="blurb">Chord Energy betreibt die Exploration und Produktion von Öl und Erdgas in Nordamerika, mit Fokus auf wirtschaftlich attraktive Lagerstätten.</p>      <p class="why"><b>Warum ein Kandidat:</b> 15 Profi-Analysten beobachten die Aktie, ihr Durchschnitts-Urteil: „Starkes Kaufen“. Die StockPilot AI zählt die Aktie zu den besten 10 % aller 136 geprüften Titel. Wenn kaufen, dann in Etappen statt alles auf einmal. Und eine Verkaufsgrenze (Stop-Loss) setzen, falls der Kurs dreht.</p>
+      <details><summary>Alle Zahlen</summary><div class="body"><table class="dt">
+        <tr><td class="lbl">Analysten-Spanne</td><td class="num">116 € bis 187 €</td></tr>
+        <tr><td class="lbl">Analysten-Votum <span class="tk">Skala 1 bis 5, 1 = Starkes Kaufen</span></td><td class="num">1,4 von 5</td></tr>
+        <tr><td class="lbl">StockPilot-AI-Rang</td><td class="num">Platz 11 von 136</td></tr>
+        <tr><td class="lbl">Branche</td><td class="num" style="font-family:inherit">Energy</td></tr>
+        <tr><td class="lbl">ISIN</td><td class="num">US6742152076</td></tr>
+      </table></div></details>
+    </div>
+        <div class="tip">
+      <span class="lab" style="color:var(--green)">Starker Kaufkandidat</span><span class="tk tkr">CWEN</span>
+      <h3>Clearway Energy, Inc.</h3>
+      <span class="chg up">heute +1,3%</span>            <div class="chart">
+        <div class="cswitch mono"><span class="on" data-d="30">30 T</span><span data-d="90">90 T</span></div>
+        <div class="cwrap c30" data-v="[29.27,29.14,29.34,29.52,30.73,30.29,29.95,30.19,30.44,30.43,29.61,29.96,29.93,29.55,30.24,31.61,31.43,31.11,31.41,32.72,32.77,32.88,32.03,33.9,34.43,35.71,34.28,34.1,34.7,34.65]"><span class="ctip mono"></span>
+          <svg width="100%" height="92" viewBox="0 0 320 92" preserveAspectRatio="none" style="display:block"><defs><linearGradient id="sg319e0c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#177245" stop-opacity=".13"/><stop offset="1" stop-color="#177245" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="91" x2="320" y2="91" stroke="#EAE5D8" stroke-width="1"/><polygon points="0,92 0,83 11,84 22.1,82.5 33.1,81.1 44.1,72 55.2,75.3 66.2,77.9 77.2,76 88.3,74.2 99.3,74.2 110.3,80.4 121.4,77.8 132.4,78 143.4,80.9 154.5,75.7 165.5,65.3 176.6,66.7 187.6,69.1 198.6,66.8 209.7,56.9 220.7,56.5 231.7,55.7 242.8,62.1 253.8,47.9 264.8,43.9 275.9,34.2 286.9,45.1 297.9,46.4 309,41.9 320,42.3 320,92" fill="url(#sg319e0c)"/><polyline fill="none" stroke="#177245" stroke-width="1.8" points="0,83 11,84 22.1,82.5 33.1,81.1 44.1,72 55.2,75.3 66.2,77.9 77.2,76 88.3,74.2 99.3,74.2 110.3,80.4 121.4,77.8 132.4,78 143.4,80.9 154.5,75.7 165.5,65.3 176.6,66.7 187.6,69.1 198.6,66.8 209.7,56.9 220.7,56.5 231.7,55.7 242.8,62.1 253.8,47.9 264.8,43.9 275.9,34.2 286.9,45.1 297.9,46.4 309,41.9 320,42.3"/><line x1="0" y1="8" x2="320" y2="8" stroke="#A08A54" stroke-width="1.1" stroke-dasharray="2 4"/><circle cx="320" cy="42.3" r="2.5" fill="#177245"/></svg>          <span class="clab tgt" style="top:0px">Ziel 39 €</span>          <span class="clab" style="top:2px">Hoch 35,71 €</span>
+          <span class="clab" style="bottom:2px">Tief 29,14 €</span>
+        </div>
+                <div class="cwrap c90" style="display:none" data-v="[32.98,32.82,32.87,33.17,32.69,33.93,33.93,33.26,32.91,32.83,33.11,33.18,33.07,31.61,31.63,30.97,30.32,31.26,31.26,31.58,31.26,30.71,32.36,32.16,32.56,33.98,33.87,33.71,33.63,33.64,32.61,33.16,32.15,32.07,31.8,32,31.98,31.92,31.28,31.27,31.52,31.42,31.47,31.82,33.11,32.07,31.59,31.14,30.29,29.93,29.98,30.96,30.82,30.89,30.65,30.12,29.19,29.77,29.21,29.29,29.27,29.14,29.34,29.52,30.73,30.29,29.95,30.19,30.44,30.43,29.61,29.96,29.93,29.55,30.24,31.61,31.43,31.11,31.41,32.72,32.77,32.88,32.03,33.9,34.43,35.71,34.28,34.1,34.7,34.65]"><span class="ctip mono"></span>
+          <svg width="100%" height="92" viewBox="0 0 320 92" preserveAspectRatio="none" style="display:block"><defs><linearGradient id="sg319e0c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#177245" stop-opacity=".13"/><stop offset="1" stop-color="#177245" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="91" x2="320" y2="91" stroke="#EAE5D8" stroke-width="1"/><polygon points="0,92 0,54.9 3.6,56.1 7.2,55.7 10.8,53.5 14.4,57.1 18,47.7 21.6,47.7 25.2,52.8 28.8,55.4 32.4,56 36,54 39.6,53.4 43.1,54.2 46.7,65.3 50.3,65.1 53.9,70.1 57.5,75.1 61.1,68 64.7,68 68.3,65.5 71.9,68 75.5,72.1 79.1,59.6 82.7,61.1 86.3,58.1 89.9,47.3 93.5,48.2 97.1,49.4 100.7,50 104.3,49.9 107.9,57.7 111.5,53.6 115.1,61.2 118.7,61.8 122.2,63.9 125.8,62.3 129.4,62.5 133,63 136.6,67.8 140.2,67.8 143.8,66 147.4,66.7 151,66.4 154.6,63.7 158.2,53.9 161.8,61.8 165.4,65.4 169,68.9 172.6,75.3 176.2,78 179.8,77.6 183.4,70.2 187,71.3 190.6,70.7 194.2,72.6 197.8,76.6 201.3,83.6 204.9,79.2 208.5,83.5 212.1,82.9 215.7,83 219.3,84 222.9,82.5 226.5,81.1 230.1,72 233.7,75.3 237.3,77.9 240.9,76 244.5,74.2 248.1,74.2 251.7,80.4 255.3,77.8 258.9,78 262.5,80.9 266.1,75.7 269.7,65.3 273.3,66.7 276.9,69.1 280.4,66.8 284,56.9 287.6,56.5 291.2,55.7 294.8,62.1 298.4,47.9 302,43.9 305.6,34.2 309.2,45.1 312.8,46.4 316.4,41.9 320,42.3 320,92" fill="url(#sg319e0c)"/><polyline fill="none" stroke="#177245" stroke-width="1.8" points="0,54.9 3.6,56.1 7.2,55.7 10.8,53.5 14.4,57.1 18,47.7 21.6,47.7 25.2,52.8 28.8,55.4 32.4,56 36,54 39.6,53.4 43.1,54.2 46.7,65.3 50.3,65.1 53.9,70.1 57.5,75.1 61.1,68 64.7,68 68.3,65.5 71.9,68 75.5,72.1 79.1,59.6 82.7,61.1 86.3,58.1 89.9,47.3 93.5,48.2 97.1,49.4 100.7,50 104.3,49.9 107.9,57.7 111.5,53.6 115.1,61.2 118.7,61.8 122.2,63.9 125.8,62.3 129.4,62.5 133,63 136.6,67.8 140.2,67.8 143.8,66 147.4,66.7 151,66.4 154.6,63.7 158.2,53.9 161.8,61.8 165.4,65.4 169,68.9 172.6,75.3 176.2,78 179.8,77.6 183.4,70.2 187,71.3 190.6,70.7 194.2,72.6 197.8,76.6 201.3,83.6 204.9,79.2 208.5,83.5 212.1,82.9 215.7,83 219.3,84 222.9,82.5 226.5,81.1 230.1,72 233.7,75.3 237.3,77.9 240.9,76 244.5,74.2 248.1,74.2 251.7,80.4 255.3,77.8 258.9,78 262.5,80.9 266.1,75.7 269.7,65.3 273.3,66.7 276.9,69.1 280.4,66.8 284,56.9 287.6,56.5 291.2,55.7 294.8,62.1 298.4,47.9 302,43.9 305.6,34.2 309.2,45.1 312.8,46.4 316.4,41.9 320,42.3"/><line x1="0" y1="8" x2="320" y2="8" stroke="#A08A54" stroke-width="1.1" stroke-dasharray="2 4"/><circle cx="320" cy="42.3" r="2.5" fill="#177245"/></svg>          <span class="clab tgt" style="top:0px">Ziel 39 €</span>          <span class="clab" style="top:2px">Hoch 35,71 €</span>
+          <span class="clab" style="bottom:2px">Tief 29,14 €</span>
+        </div>
+                <div class="small" style="padding:4px 0 2px">Kursverlauf · gepunktet: Analysten-Ziel</div>
+      </div>
+            <div class="kv"><span class="l">Kurs heute</span><span class="v">30,97 €</span></div>
+            <div class="kv"><span class="l">Analysten-Ziel Ø</span><span class="v">39,17 €</span></div>
+      <div class="kv"><span class="l">Luft nach oben</span><span class="upside up">+26%</span></div>
+            <p class="blurb">Clearway Energy betreibt erneuerbare Energieanlagen und traditionelle Kraftwerke in den USA, mit Schwerpunkt auf stabilem Stromertrag und Netzanbindung.</p>      <p class="why"><b>Warum ein Kandidat:</b> 12 Profi-Analysten beobachten die Aktie, ihr Durchschnitts-Urteil: „Starkes Kaufen“. Die StockPilot AI zählt die Aktie zu den besten 10 % aller 136 geprüften Titel. Wenn kaufen, dann in Etappen statt alles auf einmal. Und eine Verkaufsgrenze (Stop-Loss) setzen, falls der Kurs dreht.</p>
+      <details><summary>Alle Zahlen</summary><div class="body"><table class="dt">
+        <tr><td class="lbl">Analysten-Spanne</td><td class="num">30 € bis 54 €</td></tr>
+        <tr><td class="lbl">Analysten-Votum <span class="tk">Skala 1 bis 5, 1 = Starkes Kaufen</span></td><td class="num">1,4 von 5</td></tr>
+        <tr><td class="lbl">StockPilot-AI-Rang</td><td class="num">Platz 13 von 136</td></tr>
+        <tr><td class="lbl">Branche</td><td class="num" style="font-family:inherit">Utilities</td></tr>
+        <tr><td class="lbl">ISIN</td><td class="num">US18539C2044</td></tr>
+      </table></div></details>
+    </div>
+      </div>
+  <p class="small" style="margin:12px 0 0"><b>Stop-Loss?</b> Ein Auftrag an deinen Broker: verkaufe automatisch, wenn der Kurs unter deine Grenze fällt. So bleibt ein Fehlgriff ein kleiner Verlust statt ein großer.</p>
+
+  <!-- DATENBAND -->
+  <div class="cols3 datacols">
+    <div class="sublist">
+      <p class="stitle" style="margin-top:26px">Sektoren &amp; Signale<span class="why">30 Tage</span></p>
+            <div class="bar"><span class="n">Technology</span>
+        <span class="tr"><span class="fl" style="width:100%;background:var(--green)"></span></span>
+        <span class="v up">+23,1%</span></div>
+            <div class="bar"><span class="n">Utilities</span>
+        <span class="tr"><span class="fl" style="width:21%;background:var(--red)"></span></span>
+        <span class="v down">−4,8%</span></div>
+            <span class="caps">Chancen</span>
+        <div class="li"><span class="tx" style="color:#3C434B">Technology +23,1% im 30-Tage-Verlauf: stärkster Sektor, zeigt signifikante Kursdynamik.</span></div><div class="li"><span class="tx" style="color:#3C434B">QNST und TREE mit 59% Post-Earnings-Drift-Erfolg: historisch belegte Nach-Veröffentlichungs-Performance.</span></div><div class="li"><span class="tx" style="color:#3C434B">MAN +3,8% heute: positiver Kurssprung trotz Konsensziel von −8%.</span></div>      <span class="caps">Risiken</span>
+        <div class="li"><span class="tx" style="color:#3C434B">Utilities −4,8% im 30-Tage-Verlauf: schwächster Sektor, zeigt strukturelle Unterperformance.</span></div><div class="li"><span class="tx" style="color:#3C434B">VIX 19,5 (−2,3% heute): niedrige Volatilität, begrenzte Risikoprämie im Markt.</span></div><div class="li"><span class="tx" style="color:#3C434B">63 Unternehmen mit Zahlen heute/morgen: erhöhtes Ereignisrisiko, potenziell hohe Kursschwankungen.</span></div>    </div>
+    <div>
+      <p class="stitle" style="margin-top:26px">Bestnoten der StockPilot AI</p>
+      <p class="small" style="margin:0 0 4px">Jede Nacht bewertet die StockPilot AI rund 1.800 Aktien in fünf Disziplinen. Aktuell mit Bestnote:</p>
+            <div class="li"><div class="r"><span class="nm">Repsol, S.A. <span class="tk">REP.MC</span></span>
+                <span class="mono" style="font-size:12.5px;white-space:nowrap">27,31 €</span></div>
+        <div class="tx">Note A+ · stark bei Wachstum und Bewertung</div></div>
+            <div class="li"><div class="r"><span class="nm">CorMedix Inc. <span class="tk">CRMD</span></span>
+        <span style="width:96px;flex:none"><svg width="100%" height="24" viewBox="0 0 110 24" preserveAspectRatio="none" style="display:block"><defs><linearGradient id="sg2b2c65" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B0453A" stop-opacity=".13"/><stop offset="1" stop-color="#B0453A" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="23" x2="110" y2="23" stroke="#EAE5D8" stroke-width="1"/><polygon points="0,24 0,9.3 3.8,10.1 7.6,10.7 11.4,10.5 15.2,10.5 19,10.5 22.8,10.4 26.6,10.2 30.3,10 34.1,10.2 37.9,10.2 41.7,10 45.5,10.5 49.3,10.2 53.1,9.7 56.9,9.1 60.7,8.3 64.5,8.9 68.3,8.7 72.1,8.5 75.9,8 79.7,9.5 83.4,14.7 87.2,15.6 91,15.1 94.8,14.8 98.6,16 102.4,15.8 106.2,15.4 110,15.6 110,24" fill="url(#sg2b2c65)"/><polyline fill="none" stroke="#B0453A" stroke-width="1.8" points="0,9.3 3.8,10.1 7.6,10.7 11.4,10.5 15.2,10.5 19,10.5 22.8,10.4 26.6,10.2 30.3,10 34.1,10.2 37.9,10.2 41.7,10 45.5,10.5 49.3,10.2 53.1,9.7 56.9,9.1 60.7,8.3 64.5,8.9 68.3,8.7 72.1,8.5 75.9,8 79.7,9.5 83.4,14.7 87.2,15.6 91,15.1 94.8,14.8 98.6,16 102.4,15.8 106.2,15.4 110,15.6"/><circle cx="110" cy="15.6" r="2.5" fill="#B0453A"/></svg></span>        <span class="mono" style="font-size:12.5px;white-space:nowrap">4,68 € <span class="up">+1,0%</span></span></div>
+        <div class="tx">Note A+ · stark bei Profitabilität und Wachstum</div></div>
+            <div class="li"><div class="r"><span class="nm">BlackRock, Inc. <span class="tk">BLK</span></span>
+        <span style="width:96px;flex:none"><svg width="100%" height="24" viewBox="0 0 110 24" preserveAspectRatio="none" style="display:block"><defs><linearGradient id="sg709a20" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#177245" stop-opacity=".13"/><stop offset="1" stop-color="#177245" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="23" x2="110" y2="23" stroke="#EAE5D8" stroke-width="1"/><polygon points="0,24 0,16 3.8,15.7 7.6,15.9 11.4,15.6 15.2,15 19,15.5 22.8,15.7 26.6,14.8 30.3,14.8 34.1,15.6 37.9,15.3 41.7,13 45.5,12.3 49.3,12.8 53.1,12.6 56.9,11.6 60.7,12.2 64.5,13.1 68.3,12.7 72.1,12.3 75.9,11.2 79.7,10.3 83.4,11.7 87.2,10.8 91,11 94.8,8 98.6,10.6 102.4,10.2 106.2,8.5 110,8.1 110,24" fill="url(#sg709a20)"/><polyline fill="none" stroke="#177245" stroke-width="1.8" points="0,16 3.8,15.7 7.6,15.9 11.4,15.6 15.2,15 19,15.5 22.8,15.7 26.6,14.8 30.3,14.8 34.1,15.6 37.9,15.3 41.7,13 45.5,12.3 49.3,12.8 53.1,12.6 56.9,11.6 60.7,12.2 64.5,13.1 68.3,12.7 72.1,12.3 75.9,11.2 79.7,10.3 83.4,11.7 87.2,10.8 91,11 94.8,8 98.6,10.6 102.4,10.2 106.2,8.5 110,8.1"/><circle cx="110" cy="8.1" r="2.5" fill="#177245"/></svg></span>        <span class="mono" style="font-size:12.5px;white-space:nowrap">1.092,50 € <span class="down">−0,2%</span></span></div>
+        <div class="tx">Note A+ · stark bei Analysten-Revisions und Wachstum</div></div>
+            <div class="li"><div class="r"><span class="nm">Harmony Gold Mining Company Limited <span class="tk">HMY</span></span>
+        <span style="width:96px;flex:none"><svg width="100%" height="24" viewBox="0 0 110 24" preserveAspectRatio="none" style="display:block"><defs><linearGradient id="sg207560" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B0453A" stop-opacity=".13"/><stop offset="1" stop-color="#B0453A" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="23" x2="110" y2="23" stroke="#EAE5D8" stroke-width="1"/><polygon points="0,24 0,8.9 3.8,9.4 7.6,9.8 11.4,10 15.2,9.9 19,12 22.8,11.1 26.6,9.8 30.3,10.3 34.1,10.3 37.9,11.3 41.7,9.6 45.5,9.2 49.3,10.2 53.1,10.2 56.9,9.9 60.7,11.5 64.5,12.5 68.3,12.3 72.1,11.3 75.9,11.7 79.7,12.7 83.4,16 87.2,14.1 91,14.3 94.8,11 98.6,9.8 102.4,9.1 106.2,8 110,11.1 110,24" fill="url(#sg207560)"/><polyline fill="none" stroke="#B0453A" stroke-width="1.8" points="0,8.9 3.8,9.4 7.6,9.8 11.4,10 15.2,9.9 19,12 22.8,11.1 26.6,9.8 30.3,10.3 34.1,10.3 37.9,11.3 41.7,9.6 45.5,9.2 49.3,10.2 53.1,10.2 56.9,9.9 60.7,11.5 64.5,12.5 68.3,12.3 72.1,11.3 75.9,11.7 79.7,12.7 83.4,16 87.2,14.1 91,14.3 94.8,11 98.6,9.8 102.4,9.1 106.2,8 110,11.1"/><circle cx="110" cy="11.1" r="2.5" fill="#B0453A"/></svg></span>        <span class="mono" style="font-size:12.5px;white-space:nowrap">15,30 € <span class="up">+0,7%</span></span></div>
+        <div class="tx">Note A+ · stark bei Wachstum und Profitabilität</div></div>
+          </div>
+    <div class="sublist">
+      <p class="stitle" style="margin-top:26px">Zahlen-Termine</p>
+            <div class="li"><div class="r"><span class="nm">DLocal Limited <span class="tk">DLO</span></span><span class="when">morgen</span></div>
+        <div class="tx">DLocal Limited ist ein Unternehmen, das Zahlungslösungen für Unternehmen bereitstellt, die in Lateinamerika tätig sind, und berichtet morgen. Die Analystenschätzung für das EPS liegt bei 0,19 USD.</div></div>
+            <div class="li"><div class="r"><span class="nm">GMO PAYMENT GATEWAY INC <span class="tk">3769.T</span></span><span class="when">morgen</span></div>
+        <div class="tx">GMO PAYMENT GATEWAY INC ist ein Anbieter von Zahlungssystemen im Bereich Software-Infrastruktur und berichtet morgen.</div></div>
+            <div class="li"><div class="r"><span class="nm">Inter &amp; Co, Inc. <span class="tk">INTR</span></span><span class="when">morgen</span></div>
+        <div class="tx">Inter &amp; Co, Inc. ist ein Finanzdienstleister und berichtet morgen. Die Analystenschätzung für das EPS liegt bei 0,54 USD.</div></div>
+            <div class="li"><div class="r"><span class="nm">AMADA CO LTD <span class="tk">6113.T</span></span><span class="when">morgen</span></div>
+        <div class="tx">Amada Co Ltd entwickelt und produziert Spezialmaschinen für die Industrie und berichtet morgen.</div></div>
+            <span class="caps">Besser meiden</span>
+            <div class="li"><div class="r"><span class="nm">Arcos Dorados Holdings Inc. <span class="tk">ARCO</span></span><span class="warnl">Finger weg</span></div>
+        <div class="tx">5 Stop-Hits in 60 Tagen</div></div>
+            <div class="li"><div class="r"><span class="nm">Axsome Therapeutics, Inc. <span class="tk">AXSM</span></span><span class="warnl">Finger weg</span></div>
+        <div class="tx">4 Stop-Hits in 60 Tagen</div></div>
+            <div class="li"><div class="r"><span class="nm">Cue Biopharma, Inc. <span class="tk">CUE</span></span><span class="warnl">Finger weg</span></div>
+        <div class="tx">2 Stop-Hits in 60 Tagen</div></div>
+          </div>
+  </div>
+
+  <!-- BILANZ -->
+    <div class="trust">
+    <div class="ev">+1%<span>pro Tipp, netto</span></div>
+    <p>Seit 05/2026 haben wir 2.085 Empfehlungen bis zum Ende verfolgt, nichts wird gelöscht.
+      29 % erreichten ihr Kursziel (im Schnitt +24%), der Rest wurde mit durchschnittlich −9% gestoppt. Ehrliche Bilanz statt Werbeversprechen.</p>
+  </div>
+  
+</div>
+
+<div class="endband"><div class="in">
+  <div><div class="t">Hol dir deine persönliche Analyse.</div>
+  <div class="s">Depot-Coach, Warnungen und tägliche Empfehlungen, direkt für dein Depot gerechnet.</div></div>
+  <a class="cta2" href="https://gemivo.de/konto/login.php?login=1&next=https%3A%2F%2Fstockbot.gemivo.de%2F">StockPilot-App öffnen</a>
+</div></div>
+
+<div class="wrap">
+  <div class="foot">
+    <b>Offenlegung und Hinweis (Art. 20 MAR):</b> Dieses Briefing ist eine journalistisch-standardisierte Auswertung von Kurs-, Analysten- und Modelldaten, keine individuelle Anlageberatung. Einstufungen wie „Kaufkandidat“ beruhen auf dem beschriebenen Verfahren (StockPilot-AI-Ranking, Analystenkonsens, Handelbarkeits-Prüfung); Methodik in der App. Der Herausgeber hält selbst Positionen in: IREN, APLD, SVCO, AMPL, CTMX, NAVN, DCTH, CRMD. Quellen: Yahoo Finance, Onvista, Tradegate. Wertentwicklungen der Vergangenheit sind kein Indikator für die Zukunft. Ein Produkt von GE·MI·VO · <a href="https://gemivo.de/impressum.html" style="text-decoration:underline">Impressum</a>
+  </div>
+</div>
+<script>
+document.querySelectorAll('.cwrap[data-v]').forEach(function(w){
+  var v=[]; try{ v=JSON.parse(w.dataset.v); }catch(e){ return; }
+  if(!v.length) return;
+  var tip=w.querySelector('.ctip');
+  w.addEventListener('mousemove',function(e){
+    var r=w.getBoundingClientRect(), x=Math.min(Math.max(e.clientX-r.left,0),r.width);
+    var i=Math.round(x/r.width*(v.length-1)), d=v.length-1-i;
+    tip.textContent=v[i].toLocaleString('de-DE',{minimumFractionDigits:2})+' € · '+(d===0?'heute':'vor '+d+(d===1?' Tag':' Tagen'));
+    tip.style.left=x+'px'; tip.style.top='14px'; tip.style.display='block';
+  });
+  w.addEventListener('mouseleave',function(){ tip.style.display='none'; });
+});
+(function(){
+  var tb=document.getElementById('themeBtn'); if(!tb)return;
+  function cur(){ return document.documentElement.dataset.theme||(document.documentElement.classList.contains('dark-sys')?'dark':'light'); }
+  function icon(){ var d=cur()==='dark';
+    document.getElementById('ic-sun').style.display=d?'':'none';
+    document.getElementById('ic-moon').style.display=d?'none':''; }
+  tb.addEventListener('click',function(){ var nx=cur()==='dark'?'light':'dark';
+    document.documentElement.dataset.theme=nx; localStorage.setItem('nlTheme',nx); icon(); });
+  icon();
+})();
+document.querySelectorAll('.cswitch').forEach(function(sw){
+  sw.querySelectorAll('span').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var chart=sw.parentElement;
+      sw.querySelectorAll('span').forEach(function(b){b.classList.toggle('on',b===btn)});
+      var c30=chart.querySelector('.c30'), c90=chart.querySelector('.c90');
+      if(c30) c30.style.display=btn.dataset.d==='30'?'':'none';
+      if(c90) c90.style.display=btn.dataset.d==='90'?'':'none';
+    });
+  });
+});
+</script>
+</body></html>
